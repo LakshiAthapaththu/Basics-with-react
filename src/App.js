@@ -18,9 +18,11 @@ import styles from './appStyle.module.css'
 import Form from "./component/Form";
 import Table from "./component/Table";
 import ParentComp from "./component/ParentComp";
+import PortalDemo from "./component/Portal";
 function App() {
   return (
     <div className="App">
+        <PortalDemo/>
         {/*<ParentComp/>*/}
          {/*<Table/>*/}
         {/*<Form></Form>*/}
